@@ -12,4 +12,11 @@
     color: white;
     text-align: center;
     letter-spacing: 1px;
+    margin-top: 8vh;
+}
+.fleche{
+    margin-left: 5vw;
+    margin-top: 3vh;
+    color: white;
+    font-size: 25px;
 }
