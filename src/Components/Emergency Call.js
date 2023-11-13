@@ -24,7 +24,11 @@ function EmergencyCall(props){
                 OR
             </div>
             <div className="btn-container" style={{marginTop:"0",height:"20vh"}}>
-            <Button style={{borderRadius:"2vw",fontSize:"15px",fontWeight:"1000",color:"rgba(237, 38, 71, 1)"}} > Get Emergency Aid</Button>
+            <Button style={{borderRadius:"2vw",fontSize:"15px",fontWeight:"1000",color:"rgba(237, 38, 71, 1)"}}
+            onClick={(e)=>{e.preventDefault()
+            props.setState(2);
+            }}
+            > Get Emergency Aid</Button>
             </div>
         </div>
         </>
