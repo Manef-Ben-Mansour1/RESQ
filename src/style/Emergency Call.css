@@ -1,0 +1,15 @@
+.big-container{
+    width:100vw;
+    height: 100vh;
+    background-color: #F66F6F;
+    display: flex;
+    flex-direction: column;
+}
+.first-question{
+    font-family: Urbanist;
+    font-weight: 1000;
+    font-size:18px;
+    color: white;
+    text-align: center;
+    letter-spacing: 1px;
+}
