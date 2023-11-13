@@ -4,7 +4,7 @@ import '../style/FrontPage.css';
 import Button from 'react-bootstrap/Button';
 import Emergency from '../Assets/EmergencyVall.png';
 
-function FrontPage() {
+function FrontPage(props) {
   return (
     <>
         <div className={"full-page"}>
@@ -21,7 +21,9 @@ function FrontPage() {
                 Call button to get<br/>
                 instant help.
             </div>
-            <div className={"Emergency-call"}>
+            <div className={"Emergency-call"} onClick={(e)=>{e.preventDefault();
+            props.setState(1);
+            }}>
                 <img src={Emergency}  />
             </div>
         </div>
